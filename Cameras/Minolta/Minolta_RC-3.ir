@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Minolta
+# Device Model: RC-3
+# Device Type: Camera
+# Description: Shutter trigger remote for Minolta cameras
+# Contributor: Ara Malayan
+#
+# Supports the following camera models:
+#
+# Vectis: 25, 30, 40, 260, 300, S1, S100
+# Freedom Zoom: Supreme EX, 80 Date, 90EX, 105EX, 115, 125, 130 Date, 140 Date, 140EX, 160 Date, Explorer EX
+# Alpha/Dynax/Maxxum: 3, 4, 5, QD
+# Dimage: RD-3000, 2300, E201, S304, S404, S414, F100, F200, F300
+#
+name: 2s Timer
+type: raw
+frequency: 38000
+duty_cycle: 0.33
+data: 3839 1420 473 473 473 473 473 1420 473 473 473 1420 473 1420 473 473 473 473 473 473 473 1420 473 473 473 1420 473 473 473 473 473 1420 605 1420 605 1420 605 473 473 473 473 473 473 473 473 473 473 1420 473 473 473 473 473 473 473 473 473 473 473 473 473 473 473 473 473 473 473 9519 
+#
+name: Shutter
+type: raw
+frequency: 38000
+duty_cycle: 0.33
+data: 3839 1446 473 473 473 473 473 1446 473 473 473 1446 473 1446 473 473 473 473 473 473 473 1446 473 473 473 1446 473 473 473 473 473 1446 473 1446 473 1446 473 473 473 473 473 473 473 473 473 473 473 1446 473 473 473 1446 473 473 473 473 473 473 473 473 473 473 473 473 473 473 473 9545 
+#
